@@ -1,2 +1,2 @@
 # PAYTR
-Asp.NET MVC için Paytr Ödeme Ekranı Ekranı Olşuturma
+Asp.NET MVC için Paytr Ödeme Ekranı Ekranı Oluşturma
