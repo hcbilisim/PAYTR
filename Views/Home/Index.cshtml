@@ -1,0 +1,26 @@
+﻿@using PayTR.Models
+@model ResultIframe
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+
+    @if (Model.IsSuccess)
+    {
+
+        <iframe src="@Model.IframeUrl" id="paytriframe" frameborder="0"
+                scrolling="no" style="width: 100%;"></iframe>
+    }
+    else
+    {
+        <h4>@Model.ErrorMeesage</h4>
+    }
+
+</div>
+
+
+<!--SCRİPT ALANINA EKLE-->
+<script src="https://www.paytr.com/js/iframeResizer.min.js"></script>
+<script>iFrameResize({}, '#paytriframe');</script>
