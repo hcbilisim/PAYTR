@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PayTR\PayTR.csproj" />
+    <PackageReference Include="PaytrIFrame" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
