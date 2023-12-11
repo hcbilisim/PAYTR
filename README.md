@@ -10,11 +10,6 @@
 - Asp.Net MVC projende yer alan callback adresini Paytr panele ekle
 
 
-.NET CLI
-```
-PM> NuGet\Install-Package PaytrIFrame -Version 1.0.0
-```
-
 
 
 ### Visual Studio
